@@ -1,0 +1,38 @@
+.box {
+  height: 100%;
+  background-color: #122620;
+  color: #f4ebd0;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+#getjokes {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+}
+#button {
+  display: flex;
+  justify-content: center;
+}
+input {
+  padding: 10px 20px;
+  background-color: #b68d40;
+  border: 2px solid #d6ad60;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #122620;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+input:hover {
+  background-color: #d6ad60;
+  border: 2px solid #b68d40;
+  color: #122620;
+}
