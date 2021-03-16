@@ -6,8 +6,4 @@ async function getJokes() {
 
   document.getElementById("getjokes").innerHTML = data.value;
 }
-const eventlistner = document.getElementById("btn");
-if (eventlistner.addEventListener)
-  eventlistner.addEventListener("click", getJokes, false);
-else if (eventlistner.attachEvent)
-  eventlistner.attachEvent("onclick", getJokes);
+
